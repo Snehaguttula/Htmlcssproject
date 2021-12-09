@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="user">username</label>
+        <input type="text" id="user" placeholder="enter username" required>
+        <br>
+        <label for="pwd">password</label>
+        <input type="password" id="pwd" placeholder="enter password">
+        <br>
+        <label for="tel">mobile number</label>
+        <input type="number" id="tel" placeholder="enter number" required>
+        <br>
+        <p>GENDER</p>
+        <input type="radio" name="gender" required >Male
+        <input type="radio" name="gender" required>Female
+        <br>
+
+        <select name="" id="" required>
+        <option value="">India</option>
+        <option value="">Korea</option>
+        <option value="">China</option>
+        </select>
+        <p>languages known</p>
+        <input type="checkbox" name="" id="">English <br>
+        <input type="checkbox" name="" id="">Hindi <br>
+        <input type="checkbox" name="" id="">Korea <br>
+        <input type="checkbox" name="" id="">Chinese <br>
+
+        <p>upload image</p>
+        <input type="file" name="" id="" required><br>
+        <input type="date" name="" id="">Date <br>
+        <input type="search" name="" id="" placeholder="search"> <br>
+        <input type="radio" name="" id=""> GENDER<br>
+        <input type="number" name="" id="" placeholder="mobile number"> <br>
+        <input type="week" name="" id=""> <br> 
+        <input type="submit" value="submit"> 
+
+    </form>
+</body>
+</html>
